@@ -10,6 +10,8 @@ or simply:
 
 > reverse-txt-file.py source_file.txt result_file.txt
 
+Below, the illustration shows the effect of running the script:
+
 ![view-console](https://github.com/user-attachments/assets/22f2dd3c-3af9-4393-a71c-26542ef9cc46)
 
 If there are no arguments, the appropriate information will be displayed, with other errors, system errors will be displayed or it will look like everything has blown up. This is what minimalism is all about, minimum error handling. You just have to **remember to provide the correct arguments**.
