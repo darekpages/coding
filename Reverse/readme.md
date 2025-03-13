@@ -8,6 +8,8 @@ or simply:
 
 > reverse-txt-file.py source_file.txt result_file.txt
 
+![view-console](https://github.com/user-attachments/assets/22f2dd3c-3af9-4393-a71c-26542ef9cc46)
+
 If there are no arguments, the appropriate information will be displayed, with other errors, system errors will be displayed or it will look like everything has blown up. This is what minimalism is all about, minimum error handling. You just have to remember to provide the correct arguments.
 
 The script is best placed in a directory with scripts shared by the system and python.
