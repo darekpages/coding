@@ -2,6 +2,22 @@
 
 Sometimes, when doing some coding tasks, it happens that you get a text file whose line layout is reversed. If it contains a few lines, you can reverse them manually. But when it contains a few hundred lines or more, the problem begins.
 
+For example, I have a file:
+```
+line 50
+...
+line 2
+line 1
+```
+the resulting file, with reversed lines, will look like this:
+
+```
+line 1
+line 2
+...
+line 50
+```
+
 This minimalist script reverses such a file in the blink of an eye. In the console, the command:
 
 > python reverse-txt-file.py source_file.txt result_file.txt
